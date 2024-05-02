@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/al-Khwarizmi.iml" filepath="$PROJECT_DIR$/al-Khwarizmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ds_01_link/ds_01_link.iml" filepath="$PROJECT_DIR$/ds_01_link/ds_01_link.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ds_02_stack/ds_02_stack.iml" filepath="$PROJECT_DIR$/ds_02_stack/ds_02_stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ds_03_queue/ds_03_queue.iml" filepath="$PROJECT_DIR$/ds_03_queue/ds_03_queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ds_04_BinaryTree/ds_04_BinaryTree.iml" filepath="$PROJECT_DIR$/ds_04_BinaryTree/ds_04_BinaryTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/khwarizmi_sort/khwarizmi_sort.iml" filepath="$PROJECT_DIR$/khwarizmi_sort/khwarizmi_sort.iml" />
+    </modules>
+  </component>
+</project>
