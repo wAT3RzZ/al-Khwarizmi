@@ -1,6 +1,6 @@
 package com.dataStucture.binaryTree;
 
-import com.java.dataStructures.binaryTreeTest.Node;
+
 
 /**
     @classname TreeNode
@@ -14,7 +14,6 @@ public class Tree {
     public int size;
 
     public Tree(){
-
     }
 
     //插
@@ -47,12 +46,20 @@ public class Tree {
 
     }
     // 删除数据
-    public void delNode(int value){
+    public Node delNode(Node root, int value){
         if(root == null){
-            return;
-        }else{
-            
+            return root;
         }
+        if(value <root.data){
+            delNode(root.left,value);
+        }else if(value > root.data)
+            delNode(root.rigth, value);
+        else {
+            if(root.left == null)
+                return root.rigth;
+        }
+
+        return root;
     }
 //    //删除数据
 //    public static Node delnode(Node tmpRoot,int data){
